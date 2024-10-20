@@ -2,13 +2,16 @@ import shutil
 import os
 import sys
 import pandas as pd
-import pickle
-from src.logger import logging
+import pickle  
 from src.exception import CustomException
 from flask import request
 from src.constant import *
+from src.logger import logging
 from src.utils.main_utils import MainUtils
 from dataclasses import dataclass
+
+# Add the parent directory to the Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 @dataclass
 class PredictionPipelineConfig:
@@ -20,7 +23,7 @@ class PredictionPipelineConfig:
 
 
 class PredictionPipeline:
-    def __init__(self,request: request):
+    def __init__(self,request: request): 
 
         self.request = request
         self.utils = MainUtils()

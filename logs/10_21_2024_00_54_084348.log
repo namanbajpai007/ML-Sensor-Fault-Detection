@@ -1,0 +1,14 @@
+[2024-10-21 00:54:56,084] 25 root - INFO - Logging setup complete.
+[2024-10-21 00:54:56,323] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-21 00:54:56,323] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2024-10-21 00:54:58,055] 224 werkzeug - WARNING -  * Debugger is active!
+[2024-10-21 00:54:58,063] 224 werkzeug - INFO -  * Debugger PIN: 296-179-697
+[2024-10-21 00:56:44,558] 224 werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 00:56:44] "GET / HTTP/1.1" 200 -
+[2024-10-21 00:56:44,647] 224 werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 00:56:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-10-21 00:57:04,118] 69 root - INFO - Entered initiated_data_ingestion method of data_integration class
+[2024-10-21 00:57:04,118] 46 root - INFO - Exporting data from mongodb
+[2024-10-21 00:57:12,340] 224 werkzeug - INFO -  * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\pymongo\\settings.py', reloading
+[2024-10-21 00:57:12,344] 224 werkzeug - INFO -  * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+[2024-10-21 00:57:12,346] 224 werkzeug - INFO -  * Detected change in 'D:\\Anaconda\\Lib\\http\\server.py', reloading
+[2024-10-21 00:57:12,347] 224 werkzeug - INFO -  * Detected change in 'D:\\Anaconda\\Lib\\socketserver.py', reloading
+[2024-10-21 00:57:12,349] 224 werkzeug - INFO -  * Detected change in 'D:\\Anaconda\\Lib\\threading.py', reloading

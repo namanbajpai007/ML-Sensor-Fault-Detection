@@ -1,0 +1,9 @@
+[2024-10-21 01:48:17,458] 25 root - INFO - Logging setup complete.
+[2024-10-21 01:48:17,616] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-21 01:48:17,616] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2024-10-21 01:48:18,885] 224 werkzeug - WARNING -  * Debugger is active!
+[2024-10-21 01:48:18,889] 224 werkzeug - INFO -  * Debugger PIN: 296-179-697
+[2024-10-21 01:51:14,725] 83 root - INFO - predictions completed
+[2024-10-21 01:51:14,725] 51 root - INFO - prediction completed. Downloading prediction file.
+[2024-10-21 01:51:14,772] 224 werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 01:51:14] "POST /predict HTTP/1.1" 200 -
+[2024-10-21 02:09:25,420] 224 werkzeug - INFO -  * Detected change in 'd:\\PW Skills\\Projects\\ML Sensor Fault Detection\\app.py', reloading

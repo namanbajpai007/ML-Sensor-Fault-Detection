@@ -1,0 +1,28 @@
+[2024-10-21 00:57:18,379] 25 root - INFO - Logging setup complete.
+[2024-10-21 00:57:18,580] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-21 00:57:18,581] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2024-10-21 00:57:20,114] 224 werkzeug - WARNING -  * Debugger is active!
+[2024-10-21 00:57:20,117] 224 werkzeug - INFO -  * Debugger PIN: 296-179-697
+[2024-10-21 00:57:20,722] 69 root - INFO - Entered initiated_data_ingestion method of data_integration class
+[2024-10-21 00:57:20,723] 46 root - INFO - Exporting data from mongodb
+[2024-10-21 00:57:21,819] 69 root - INFO - Entered initiated_data_ingestion method of data_integration class
+[2024-10-21 00:57:21,819] 46 root - INFO - Exporting data from mongodb
+[2024-10-21 00:57:23,945] 56 root - INFO - saving exported data into feature store file path :artifacts
+[2024-10-21 00:57:23,996] 74 root - INFO - got the data from mongodb
+[2024-10-21 00:57:23,996] 76 root - INFO - exited initiate_data_ingestion methos of data ingestion class
+[2024-10-21 00:57:23,996] 67 root - INFO - Entered initiate data transformation method of data transfomration class
+[2024-10-21 00:57:24,104] 49 root - INFO - Entered the save_object method of MainUtils class
+[2024-10-21 00:57:24,105] 57 root - INFO - Exited the save_object method of MainUtils class
+[2024-10-21 00:57:24,106] 190 root - INFO - Splitting training and testing input and target feature
+[2024-10-21 00:57:24,106] 204 root - INFO - Extracting model config file path
+[2024-10-21 00:57:24,106] 216 root - INFO - Extracting model config file path
+[2024-10-21 00:57:24,936] 224 werkzeug - INFO -  * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\sklearn\\model_selection\\_split.py', reloading
+[2024-10-21 00:57:26,003] 56 root - INFO - saving exported data into feature store file path :artifacts
+[2024-10-21 00:57:26,218] 74 root - INFO - got the data from mongodb
+[2024-10-21 00:57:26,218] 76 root - INFO - exited initiate_data_ingestion methos of data ingestion class
+[2024-10-21 00:57:26,218] 67 root - INFO - Entered initiate data transformation method of data transfomration class
+[2024-10-21 00:57:26,500] 49 root - INFO - Entered the save_object method of MainUtils class
+[2024-10-21 00:57:26,501] 57 root - INFO - Exited the save_object method of MainUtils class
+[2024-10-21 00:57:26,502] 190 root - INFO - Splitting training and testing input and target feature
+[2024-10-21 00:57:26,502] 204 root - INFO - Extracting model config file path
+[2024-10-21 00:57:26,502] 216 root - INFO - Extracting model config file path

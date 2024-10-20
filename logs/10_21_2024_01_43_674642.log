@@ -1,0 +1,23 @@
+[2024-10-21 01:43:42,674] 25 root - INFO - Logging setup complete.
+[2024-10-21 01:43:42,827] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-21 01:43:42,827] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2024-10-21 01:43:44,126] 224 werkzeug - WARNING -  * Debugger is active!
+[2024-10-21 01:43:44,131] 224 werkzeug - INFO -  * Debugger PIN: 296-179-697
+[2024-10-21 01:43:55,208] 224 werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 01:43:55] "GET / HTTP/1.1" 200 -
+[2024-10-21 01:44:03,456] 69 root - INFO - Entered initiated_data_ingestion method of data_integration class
+[2024-10-21 01:44:03,456] 46 root - INFO - Exporting data from mongodb
+[2024-10-21 01:44:06,043] 56 root - INFO - saving exported data into feature store file path :artifacts
+[2024-10-21 01:44:06,101] 74 root - INFO - got the data from mongodb
+[2024-10-21 01:44:06,101] 76 root - INFO - exited initiate_data_ingestion methos of data ingestion class
+[2024-10-21 01:44:06,102] 67 root - INFO - Entered initiate data transformation method of data transfomration class
+[2024-10-21 01:44:06,238] 49 root - INFO - Entered the save_object method of MainUtils class
+[2024-10-21 01:44:06,240] 57 root - INFO - Exited the save_object method of MainUtils class
+[2024-10-21 01:44:06,241] 190 root - INFO - Splitting training and testing input and target feature
+[2024-10-21 01:44:06,241] 204 root - INFO - Extracting model config file path
+[2024-10-21 01:44:06,241] 216 root - INFO - Extracting model config file path
+[2024-10-21 01:44:25,599] 224 werkzeug - INFO -  * Detected change in 'D:\\Anaconda\\Lib\\site-packages\\sklearn\\model_selection\\_search.py', reloading
+[2024-10-21 01:44:25,729] 261 root - INFO - Best found model on both training and testing dataset
+[2024-10-21 01:44:25,729] 268 root - INFO - Saving model at path: artifacts\model.pkl
+[2024-10-21 01:44:25,729] 49 root - INFO - Entered the save_object method of MainUtils class
+[2024-10-21 01:44:25,732] 57 root - INFO - Exited the save_object method of MainUtils class
+[2024-10-21 01:44:25,739] 224 werkzeug - INFO - 127.0.0.1 - - [21/Oct/2024 01:44:25] "GET /train HTTP/1.1" 200 -

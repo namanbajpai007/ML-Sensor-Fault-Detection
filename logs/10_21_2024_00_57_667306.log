@@ -1,0 +1,6 @@
+[2024-10-21 00:57:28,667] 25 root - INFO - Logging setup complete.
+[2024-10-21 00:57:29,841] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-21 00:57:29,841] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2024-10-21 00:57:34,715] 224 werkzeug - WARNING -  * Debugger is active!
+[2024-10-21 00:57:34,727] 224 werkzeug - INFO -  * Debugger PIN: 296-179-697
+[2024-10-21 01:00:16,126] 224 werkzeug - INFO -  * Detected change in 'D:\\Anaconda\\Lib\\runpy.py', reloading
